@@ -34,10 +34,11 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="CreateAllUserEvents.vi" Type="VI" URL="../CreateAllUserEvents.vi"/>
+	<Item Name="DestroyAllUserEvents.vi" Type="VI" URL="../DestroyAllUserEvents.vi"/>
+	<Item Name="Create User Event -UpdateTemp.vi" Type="VI" URL="../Create User Event -UpdateTemp.vi"/>
 	<Item Name="Create User Event - Stop.vi" Type="VI" URL="../Create User Event - Stop.vi"/>
-	<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Fire User Event - Stop.vi"/>
-	<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../Destroy User Event - Stop.vi"/>
 	<Item Name="Create User Event - Abort.vi" Type="VI" URL="../Create User Event - Abort.vi"/>
-	<Item Name="Destroy User Event -Abort.vi" Type="VI" URL="../Destroy User Event -Abort.vi"/>
-	<Item Name="Fire User Event - Abort.vi" Type="VI" URL="../Fire User Event - Abort.vi"/>
+	<Item Name="Destroy User Event.vi" Type="VI" URL="../Destroy User Event.vi"/>
+	<Item Name="Fire User Event.vi" Type="VI" URL="../Fire User Event.vi"/>
 </Library>

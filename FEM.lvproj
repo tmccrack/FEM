@@ -16,12 +16,8 @@
 	<Property Name="varPersistentID:{5AFEB1B6-15B1-443A-8192-07A976D42671}" Type="Ref">/My Computer/Variables.lvlib/FTTArrayTemp</Property>
 	<Property Name="varPersistentID:{6632420D-6451-4899-8732-2728F44F60C8}" Type="Ref">/My Computer/Variables.lvlib/FTTImage</Property>
 	<Property Name="varPersistentID:{6D233908-1BE3-4012-9FF2-7C8A794FEEC9}" Type="Ref">/fem-rt/RT-Variables.lvlib/MotorStatus</Property>
-	<Property Name="varPersistentID:{743658CE-5A71-4DBC-8B3D-5F8FBCB9D7B2}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{86EB3BC7-E74C-4F69-AF2F-D30C11096E11}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{88F6371B-7126-42EC-978E-E1836D9B997A}" Type="Ref">/fem-rt/Chassis/Mod7/DI6</Property>
 	<Property Name="varPersistentID:{8AEA2EFE-A15B-4616-9764-E423EF0CAA48}" Type="Ref">/fem-rt/Chassis/Mod6/DO0</Property>
-	<Property Name="varPersistentID:{8C393A5E-592D-426B-9E78-DB25CA0DC1A6}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{8EEA3967-841A-4E27-BA6A-3B012A721BF4}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{927B2EE7-2B59-4B5C-A009-08BD64A8E686}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPol</Property>
 	<Property Name="varPersistentID:{9F92658D-E8EE-492F-8925-EC81F0B9363B}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CoverState</Property>
 	<Property Name="varPersistentID:{A451F0D6-F530-409C-985A-9864ABF507AF}" Type="Ref">/fem-rt/Chassis/Mod2/AI2</Property>
@@ -1117,6 +1113,9 @@ DirectoryIndex index.htm
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FEM-rt" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1136,7 +1135,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1C72D48D-DBE0-4191-BCC7-2906B3CFB8A5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="CDF_Comp.Count" Type="Int">6</Property>
 				<Property Name="CDF_Comp[0].ID" Type="Str">{899452D2-C085-430B-B76D-7FDB33BB324A}</Property>
@@ -1167,7 +1166,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79C797D9-59E1-47FB-BDFE-05F70288F654}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DB1B4156-6FEC-40AD-9BAE-73FFCF944447}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/fem-rt/MainRT.vi</Property>
@@ -1176,7 +1175,11 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/fem-rt/mirrorInterface.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/fem-rt/RT-Variables.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Yale University</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FEM-rt</Property>
 				<Property Name="TgtF_internalName" Type="Str">FEM-rt</Property>

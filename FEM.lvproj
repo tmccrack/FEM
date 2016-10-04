@@ -31,7 +31,6 @@
 	<Property Name="varPersistentID:{D7C983B5-3682-42DD-9B68-EC1E30F8323B}" Type="Ref">/fem-rt/Chassis/Mod6/DO3</Property>
 	<Property Name="varPersistentID:{DB5947B8-C16E-4250-965B-A2AD3D8DA566}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverIn</Property>
 	<Property Name="varPersistentID:{E1537A23-38BA-45C9-863A-4296AA65B15A}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalState</Property>
-	<Property Name="varPersistentID:{E550961E-19B6-4A70-9C84-902CAFC02FDB}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{EA76F171-C18E-41C3-A613-74D8FBDD4032}" Type="Ref">/fem-rt/Chassis/Mod7/SwLocal</Property>
 	<Property Name="varPersistentID:{ED928925-422D-46C3-9337-008A647419B9}" Type="Ref">/fem-rt/Chassis/Mod2/AI3</Property>
 	<Property Name="varPersistentID:{F5039C5F-8C66-4A3F-9C74-32C45AE010BA}" Type="Ref"></Property>
@@ -84,18 +83,6 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Variables.lvlib" Type="Library" URL="../Enviro/Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="abort Acquisition LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/abort Acquisition LV.vi"/>
-				<Item Name="acquire Closed Loop LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Closed Loop LV.vi"/>
-				<Item Name="acquire Full Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Full Frame LV.vi"/>
-				<Item Name="acquire Sub Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Sub Frame LV.vi"/>
-				<Item Name="get Camera Data LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Camera Data LV.vi"/>
-				<Item Name="get Temperature LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Temperature LV.vi"/>
-				<Item Name="initialize Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/initialize Camera LV.vi"/>
-				<Item Name="set Frame Size LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Frame Size LV.vi"/>
-				<Item Name="set Temperature LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Temperature LV.vi"/>
-				<Item Name="shutdown Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/shutdown Camera LV.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -133,6 +120,14 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="cameraLibrary.dll" Type="Document" URL="../../cameraLibrary/build-cameraLibrary/release/cameraLibrary.dll"/>
+			<Item Name="cameraLibrary.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/user.lib/cameraLibrary/cameraLibrary.lvlib"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
 		</Item>
@@ -1096,8 +1091,16 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
-		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
 		<Item Name="mirrorInterface.vi" Type="VI" URL="../FTT/mirror/mirrorInterface.vi"/>
+		<Item Name="expres-FEM" Type="Web Service">
+			<Property Name="ws.guid" Type="Str">{144D8D5D-E194-480C-99CC-F4B7BB27ED37}</Property>
+			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
+			<Item Name="Startup VIs" Type="Startup VIs Container">
+				<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi">
+					<Property Name="ws.type" Type="Int">2</Property>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1158,7 +1161,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{DB1B4156-6FEC-40AD-9BAE-73FFCF944447}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/fem-rt/MainRT.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/fem-rt/expres-FEM/Startup VIs/MainRT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>

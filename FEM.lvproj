@@ -2,26 +2,20 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{24A7988E-C329-4956-B62E-11AF33198752}" Type="Ref">/fem-rt/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{2688FBA8-D381-4313-B01E-E11118B4F35C}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalState</Property>
-	<Property Name="varPersistentID:{2A591561-0F60-41DA-94E9-9BE3C70AB657}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{2B7C8870-545E-40E4-BB82-5F13005F7341}" Type="Ref">/fem-rt/Chassis/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{34EC0043-BEC0-43CB-BCA3-331E3E805955}" Type="Ref">/fem-rt/Chassis/Mod3/AI7</Property>
 	<Property Name="varPersistentID:{381F9B58-66EB-4D42-B87C-CA88F5F3D3B8}" Type="Ref">/fem-rt/Chassis/Mod2/AI0</Property>
-	<Property Name="varPersistentID:{3A34BE32-73F6-473C-B0A6-C9F31EF5764C}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/MotorStatus</Property>
 	<Property Name="varPersistentID:{3E6A108D-8E67-48D2-83FC-50E4B78FB187}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPower</Property>
 	<Property Name="varPersistentID:{432A7265-8E4C-42DA-943D-B185E76EBE14}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverOut</Property>
 	<Property Name="varPersistentID:{453E1EA6-1957-4B0C-A879-DA4E5A396305}" Type="Ref">/fem-rt/RT-Variables.lvlib/RemoteState</Property>
 	<Property Name="varPersistentID:{4E4CF323-224E-4B7B-836D-E8EB9A2048C0}" Type="Ref">/fem-rt/Chassis/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{529072D5-33D3-4B5A-A0AE-F3CF5BF9A190}" Type="Ref">/fem-rt/Chassis/Mod7/DI5</Property>
 	<Property Name="varPersistentID:{54FF75B9-7054-4ABF-99B7-EF1C4DB3D7B3}" Type="Ref">/fem-rt/Chassis/Mod3/AI4</Property>
-	<Property Name="varPersistentID:{5AFEB1B6-15B1-443A-8192-07A976D42671}" Type="Ref">/My Computer/Variables.lvlib/FTTArrayTemp</Property>
-	<Property Name="varPersistentID:{6632420D-6451-4899-8732-2728F44F60C8}" Type="Ref">/My Computer/Variables.lvlib/FTTImage</Property>
 	<Property Name="varPersistentID:{6D233908-1BE3-4012-9FF2-7C8A794FEEC9}" Type="Ref">/fem-rt/RT-Variables.lvlib/MotorStatus</Property>
 	<Property Name="varPersistentID:{88F6371B-7126-42EC-978E-E1836D9B997A}" Type="Ref">/fem-rt/Chassis/Mod7/DI6</Property>
 	<Property Name="varPersistentID:{8AEA2EFE-A15B-4616-9764-E423EF0CAA48}" Type="Ref">/fem-rt/Chassis/Mod6/DO0</Property>
 	<Property Name="varPersistentID:{927B2EE7-2B59-4B5C-A009-08BD64A8E686}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPol</Property>
-	<Property Name="varPersistentID:{9F92658D-E8EE-492F-8925-EC81F0B9363B}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CoverState</Property>
 	<Property Name="varPersistentID:{A451F0D6-F530-409C-985A-9864ABF507AF}" Type="Ref">/fem-rt/Chassis/Mod2/AI2</Property>
-	<Property Name="varPersistentID:{A80FBA00-D658-423B-B6D7-CC2427DE33A1}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{AFA3F0A6-AF1E-4873-B4BE-36A15BFE6BC9}" Type="Ref">/fem-rt/Chassis/Mod7/DI7</Property>
 	<Property Name="varPersistentID:{B5926C26-DE45-4A13-B234-46D3D1DB8D2B}" Type="Ref">/fem-rt/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{B8F8ED39-3BFE-43E5-8A0B-E00ACA515872}" Type="Ref">/fem-rt/RT-Variables.lvlib/CoverState</Property>
@@ -30,12 +24,8 @@
 	<Property Name="varPersistentID:{D724251E-E157-4B61-896C-C20271FA08DC}" Type="Ref">/fem-rt/Chassis/Mod2/AI1</Property>
 	<Property Name="varPersistentID:{D7C983B5-3682-42DD-9B68-EC1E30F8323B}" Type="Ref">/fem-rt/Chassis/Mod6/DO3</Property>
 	<Property Name="varPersistentID:{DB5947B8-C16E-4250-965B-A2AD3D8DA566}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverIn</Property>
-	<Property Name="varPersistentID:{E1537A23-38BA-45C9-863A-4296AA65B15A}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalState</Property>
 	<Property Name="varPersistentID:{EA76F171-C18E-41C3-A613-74D8FBDD4032}" Type="Ref">/fem-rt/Chassis/Mod7/SwLocal</Property>
 	<Property Name="varPersistentID:{ED928925-422D-46C3-9337-008A647419B9}" Type="Ref">/fem-rt/Chassis/Mod2/AI3</Property>
-	<Property Name="varPersistentID:{F5039C5F-8C66-4A3F-9C74-32C45AE010BA}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{F95FA215-84B4-4446-A46B-1AF224DE68F0}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{FCC3390A-E6EE-4CD5-A248-5027F124E4A8}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/RemoteState</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -80,8 +70,6 @@
 			<Item Name="Main-e.vi" Type="VI" URL="../FTT/Main-e.vi"/>
 			<Item Name="mirrorTestInterface.vi" Type="VI" URL="../FTT/mirror/mirrorTestInterface.vi"/>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Variables.lvlib" Type="Library" URL="../Enviro/Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -121,15 +109,13 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="cameraLibrary.dll" Type="Document" URL="../../cameraLibrary/build-cameraLibrary/release/cameraLibrary.dll"/>
-			<Item Name="cameraLibrary.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/user.lib/cameraLibrary/cameraLibrary.lvlib"/>
+			<Item Name="cameraLibrary.lvlib" Type="Library" URL="../../cameraLibrary/build-cameraLibrary/labview-import/cameraLibrary.lvlib"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1094,7 +1080,12 @@ DirectoryIndex index.htm
 		<Item Name="mirrorInterface.vi" Type="VI" URL="../FTT/mirror/mirrorInterface.vi"/>
 		<Item Name="expres-FEM" Type="Web Service">
 			<Property Name="ws.guid" Type="Str">{144D8D5D-E194-480C-99CC-F4B7BB27ED37}</Property>
-			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
+			<Item Name="Web Resources" Type="HTTP WebResources Container">
+				<Item Name="getSwitch.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/user.lib/cameraLibrary/getSwitch.vi">
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+				</Item>
+			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container">
 				<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi">
 					<Property Name="ws.type" Type="Int">2</Property>

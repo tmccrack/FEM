@@ -70,6 +70,7 @@
 			<Item Name="Main-e.vi" Type="VI" URL="../FTT/Main-e.vi"/>
 			<Item Name="mirrorTestInterface.vi" Type="VI" URL="../FTT/mirror/mirrorTestInterface.vi"/>
 		</Item>
+		<Item Name="cameraLibrary.lvlib" Type="Library" URL="../FTT/support/Camera Library/cameraLibrary.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -109,7 +110,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="cameraLibrary.lvlib" Type="Library" URL="../../cameraLibrary/build-cameraLibrary/labview-import/cameraLibrary.lvlib"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

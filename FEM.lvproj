@@ -110,22 +110,12 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="abort Acquisition LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/abort Acquisition LV.vi"/>
-			<Item Name="acquire Closed Loop LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/acquire Closed Loop LV.vi"/>
-			<Item Name="acquire Full Frame LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/acquire Full Frame LV.vi"/>
-			<Item Name="acquire Sub Frame LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/acquire Sub Frame LV.vi"/>
-			<Item Name="get Camera Data LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/get Camera Data LV.vi"/>
-			<Item Name="get Temperature LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/get Temperature LV.vi"/>
-			<Item Name="initialize Camera LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/initialize Camera LV.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="set Frame Size LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/set Frame Size LV.vi"/>
-			<Item Name="set Temperature LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/set Temperature LV.vi"/>
-			<Item Name="shutdown Camera LV.vi" Type="VI" URL="../FTT/support/Camera Library/VIs/shutdown Camera LV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -1053,6 +1053,11 @@ DirectoryIndex index.htm
 			<Property Name="ws.type" Type="Int">2</Property>
 		</Item>
 		<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
+		<Item Name="FEM-web" Type="Web Service">
+			<Property Name="ws.guid" Type="Str">{64C92A79-8C13-4841-A955-9D454AAA02F7}</Property>
+			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
+			<Item Name="Startup VIs" Type="Startup VIs Container"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

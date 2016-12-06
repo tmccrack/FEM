@@ -208,7 +208,6 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="support" Type="Folder">
-			<Item Name="CalInjectRT.vi" Type="VI" URL="../Motors/CalInjectRT.vi"/>
 			<Item Name="EnvCoverRT.vi" Type="VI" URL="../Motors/EnvCoverRT.vi"/>
 			<Item Name="SwitchRT.vi" Type="VI" URL="../Switch/SwitchRT.vi"/>
 			<Item Name="TemperatureRT.vi" Type="VI" URL="../Enviro/TemperatureRT.vi"/>
@@ -1048,11 +1047,12 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
+		<Item Name="mirrorInterface.vi" Type="VI" URL="../FTT/mirror/mirrorInterface.vi"/>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi">
 			<Property Name="ws.type" Type="Int">2</Property>
 		</Item>
-		<Item Name="mirrorInterface.vi" Type="VI" URL="../FTT/mirror/mirrorInterface.vi"/>
 		<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
+		<Item Name="EnvCoverColorState.vi" Type="VI" URL="../Motors/EnvCoverColorState.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

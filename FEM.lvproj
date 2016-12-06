@@ -212,6 +212,7 @@ DirectoryIndex index.htm
 			<Item Name="SwitchRT.vi" Type="VI" URL="../Switch/SwitchRT.vi"/>
 			<Item Name="TemperatureRT.vi" Type="VI" URL="../Enviro/TemperatureRT.vi"/>
 			<Item Name="EnvCoverTest.vi" Type="VI" URL="../Motors/EnvCoverTest.vi"/>
+			<Item Name="EnvCoverColorState.vi" Type="VI" URL="../Motors/EnvCoverColorState.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1052,13 +1053,9 @@ DirectoryIndex index.htm
 			<Property Name="ws.type" Type="Int">2</Property>
 		</Item>
 		<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
-		<Item Name="EnvCoverColorState.vi" Type="VI" URL="../Motors/EnvCoverColorState.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

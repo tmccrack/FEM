@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{24A7988E-C329-4956-B62E-11AF33198752}" Type="Ref">/fem-rt/RT-Variables.lvlib/Temperature</Property>
-	<Property Name="varPersistentID:{2688FBA8-D381-4313-B01E-E11118B4F35C}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalState</Property>
 	<Property Name="varPersistentID:{2B7C8870-545E-40E4-BB82-5F13005F7341}" Type="Ref">/fem-rt/Chassis/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{34EC0043-BEC0-43CB-BCA3-331E3E805955}" Type="Ref">/fem-rt/Chassis/Mod3/AI7</Property>
 	<Property Name="varPersistentID:{381F9B58-66EB-4D42-B87C-CA88F5F3D3B8}" Type="Ref">/fem-rt/Chassis/Mod2/AI0</Property>
@@ -11,19 +10,18 @@
 	<Property Name="varPersistentID:{4E4CF323-224E-4B7B-836D-E8EB9A2048C0}" Type="Ref">/fem-rt/Chassis/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{529072D5-33D3-4B5A-A0AE-F3CF5BF9A190}" Type="Ref">/fem-rt/Chassis/Mod7/DI5</Property>
 	<Property Name="varPersistentID:{54FF75B9-7054-4ABF-99B7-EF1C4DB3D7B3}" Type="Ref">/fem-rt/Chassis/Mod3/AI4</Property>
-	<Property Name="varPersistentID:{6D233908-1BE3-4012-9FF2-7C8A794FEEC9}" Type="Ref">/fem-rt/RT-Variables.lvlib/MotorStatus</Property>
 	<Property Name="varPersistentID:{88F6371B-7126-42EC-978E-E1836D9B997A}" Type="Ref">/fem-rt/Chassis/Mod7/DI6</Property>
 	<Property Name="varPersistentID:{8AEA2EFE-A15B-4616-9764-E423EF0CAA48}" Type="Ref">/fem-rt/Chassis/Mod6/PowerSupplies</Property>
 	<Property Name="varPersistentID:{927B2EE7-2B59-4B5C-A009-08BD64A8E686}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPol</Property>
 	<Property Name="varPersistentID:{A451F0D6-F530-409C-985A-9864ABF507AF}" Type="Ref">/fem-rt/Chassis/Mod2/AI2</Property>
 	<Property Name="varPersistentID:{AFA3F0A6-AF1E-4873-B4BE-36A15BFE6BC9}" Type="Ref">/fem-rt/Chassis/Mod7/DI7</Property>
-	<Property Name="varPersistentID:{B5926C26-DE45-4A13-B234-46D3D1DB8D2B}" Type="Ref">/fem-rt/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{B8F8ED39-3BFE-43E5-8A0B-E00ACA515872}" Type="Ref">/fem-rt/RT-Variables.lvlib/CoverState</Property>
 	<Property Name="varPersistentID:{C69EC1CA-E2AB-436D-82C1-E394592A4AB1}" Type="Ref">/fem-rt/Chassis/Mod7/SwOff</Property>
 	<Property Name="varPersistentID:{CC2C01DB-F431-404C-B652-C0CF45937D1B}" Type="Ref">/fem-rt/Chassis/Mod7/SwRemote</Property>
 	<Property Name="varPersistentID:{D724251E-E157-4B61-896C-C20271FA08DC}" Type="Ref">/fem-rt/Chassis/Mod2/AI1</Property>
 	<Property Name="varPersistentID:{D7C983B5-3682-42DD-9B68-EC1E30F8323B}" Type="Ref">/fem-rt/Chassis/Mod6/DO3</Property>
 	<Property Name="varPersistentID:{DB5947B8-C16E-4250-965B-A2AD3D8DA566}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverOpen</Property>
+	<Property Name="varPersistentID:{E4D8BCAB-1D67-4219-8907-2D91BB1F666C}" Type="Ref">/fem-rt/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{EA76F171-C18E-41C3-A613-74D8FBDD4032}" Type="Ref">/fem-rt/Chassis/Mod7/SwLocal</Property>
 	<Property Name="varPersistentID:{ED928925-422D-46C3-9337-008A647419B9}" Type="Ref">/fem-rt/Chassis/Mod2/AI3</Property>
 	<Item Name="My Computer" Type="My Computer">

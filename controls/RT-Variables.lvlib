@@ -9,59 +9,52 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MainRT.vi" Type="Friended VI" URL="../../MainRT.vi"/>
 	</Item>
-	<Item Name="CalState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Z.1!!!"9!A!!!!!!"!#.!&amp;A!%!EFO"EVP&gt;GFO:Q.0&gt;81%6W&amp;J&gt;!!!"F.U982V=Q!!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="CoverState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Z.1!!!"9!A!!!!!!"!#.!&amp;A!%!EFO"EVP&gt;GFO:Q.0&gt;81%6W&amp;J&gt;!!!"F.U982V=Q!!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="MotorStatus" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!`/Q!!!"9!A!!!!!!#!!V!!1!(4H6N:8*J9Q!;1%!!!@````]!!!V"=H*B?3"P:C"*&lt;H1Y!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!"!#N!&amp;A!%"%^Q:7Y'47^W;7ZH"5.M&lt;X.F"&amp;&gt;B;81!!!J.&lt;X2P=F.U982F!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="RemoteState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:SwitchStates.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../SwitchStates.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"L:Q!!!"9!A!!!!!!"!&amp;5!]&gt;/Y"&amp;!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9B"4&gt;WFU9WB4&gt;'&amp;U:8-O9X2M!#F!&amp;A!$!U^G:A6-&lt;W.B&lt;!:3:7VP&gt;'5!!!N4&gt;WFU9WB4&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="MotorStates.ctl" Type="VI" URL="../MotorStates.ctl"/>
 	<Item Name="SwitchStates.ctl" Type="VI" URL="../SwitchStates.ctl"/>
-	<Item Name="FTTCommState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Temperature" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectPath" Type="Str">fem-sv\Mod2\AI2</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="FTTCommState" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

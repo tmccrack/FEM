@@ -5,6 +5,7 @@
 	<Property Name="varPersistentID:{34EC0043-BEC0-43CB-BCA3-331E3E805955}" Type="Ref">/fem-rt/Chassis/Mod3/AI7</Property>
 	<Property Name="varPersistentID:{381F9B58-66EB-4D42-B87C-CA88F5F3D3B8}" Type="Ref">/fem-rt/Chassis/Mod2/AI0</Property>
 	<Property Name="varPersistentID:{3E6A108D-8E67-48D2-83FC-50E4B78FB187}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPower</Property>
+	<Property Name="varPersistentID:{42E5AE66-3468-4DA1-9FD2-E9650517BEB7}" Type="Ref">/fem-rt/RT-Variables.lvlib/ColorState</Property>
 	<Property Name="varPersistentID:{432A7265-8E4C-42DA-943D-B185E76EBE14}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverClosed</Property>
 	<Property Name="varPersistentID:{453E1EA6-1957-4B0C-A879-DA4E5A396305}" Type="Ref">/fem-rt/RT-Variables.lvlib/RemoteState</Property>
 	<Property Name="varPersistentID:{4E4CF323-224E-4B7B-836D-E8EB9A2048C0}" Type="Ref">/fem-rt/Chassis/Mod3/AI5</Property>
@@ -211,7 +212,6 @@ DirectoryIndex index.htm
 			<Item Name="EnvCoverRT.vi" Type="VI" URL="../Motors/EnvCoverRT.vi"/>
 			<Item Name="SwitchRT.vi" Type="VI" URL="../Switch/SwitchRT.vi"/>
 			<Item Name="TemperatureRT.vi" Type="VI" URL="../Enviro/TemperatureRT.vi"/>
-			<Item Name="EnvCoverTest.vi" Type="VI" URL="../Motors/EnvCoverTest.vi"/>
 			<Item Name="EnvCoverColorState.vi" Type="VI" URL="../Motors/EnvCoverColorState.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
@@ -996,6 +996,7 @@ DirectoryIndex index.htm
 					<Property Name="FPGA.PersistentID" Type="Str">{115BE584-631E-4F6F-A27E-A8D75C55A080}</Property>
 				</Item>
 				<Item Name="MainFPGA.vi" Type="VI" URL="../MainFPGA.vi">
+					<Property Name="BuildSpec" Type="Str">{525A838E-92B8-4C89-87A8-9086C5259B40}</Property>
 					<Property Name="configString.guid" Type="Str">{115BE584-631E-4F6F-A27E-A8D75C55A080}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9269,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{4B193CC0-6595-4E95-ADA0-7877C1D258CF}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{4C3A22AB-C9B5-4961-A35D-7D5299B4240F}"ControlLogic=0;NumberOfElements=27;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=2;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FTT-FIFO;DataType=1000800000000001003C005F03510014000000050001001400000005FFFFFFFFFFF800000001001400000005000000000007FFFF00000001FFFFFFF2000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{58331838-629C-412D-AFD9-BCF4B80B4D0B}resource=/crio_Mod5/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{616AB525-CE68-47A7-B916-4013AE21CF4F}[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{716D4942-7D2E-491B-8434-471431BC7874}resource=/Chassis Temperature;0;ReadMethodType=i16{78263B72-2EAD-4264-BFC9-98808DA4C5E5}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{7BED3F2D-BB1D-494D-871B-3AB9F34F1A24}resource=/Scan Clock;0;ReadMethodType=bool{81DFD501-E470-434B-9AA9-0BD348365FEF}cRIO Subresource{9BA03964-F226-4AF5-8E75-420FFCC3A728}cRIO Subresource{AD1FF34B-B33D-4C9D-AF51-48400D408FA0}resource=/crio_Mod5/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{AE01B548-2ECD-4FE7-9D1E-069690B464AC}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B3DD939F-8479-47F0-8656-7C9850BD22F3}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{C3EAA58F-8960-4FE5-B35F-81756B0279FA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{D3FE0FE2-125D-4DDB-A7ED-09124CFDE1DE}resource=/crio_Mod5/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DFB0DE26-AC33-40CB-94B6-697C891D1761}cRIO Subresource{E08DDE54-CCF6-4CED-93BC-67CB71A26BCB}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E2EE3BE5-6DA2-4B85-B48A-FA3EBCD8A684}resource=/crio_Mod5/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EE703F9F-A9C7-44C5-B60B-3D858986A0A5}cRIO Subresource{EE8160C8-7DEC-4FF5-B70F-D7841DA87929}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{FF625485-63F3-4724-B7C5-B851B60F18F5}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FTT-FIFO"ControlLogic=0;NumberOfElements=27;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=2;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FTT-FIFO;DataType=1000800000000001003C005F03510014000000050001001400000005FFFFFFFFFFF800000001001400000005000000000007FFFF00000001FFFFFFF2000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5/AO0resource=/crio_Mod5/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO1resource=/crio_Mod5/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO2resource=/crio_Mod5/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO3resource=/crio_Mod5/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9269,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\admin\repos\FEM\FPGA Bitfiles\FEM_FPGATarget_MainFPGA_-0WywfwiEVc.lvbitx</Property>
@@ -1020,10 +1021,10 @@ DirectoryIndex index.htm
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
 						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
 						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str">Explore</Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str">Explore</Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str">Explore</Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str">Explore</Property>
 						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
 						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
 						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
@@ -1049,18 +1050,119 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
 		<Item Name="mirrorInterface.vi" Type="VI" URL="../FTT/mirror/mirrorInterface.vi"/>
+		<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi">
 			<Property Name="ws.type" Type="Int">2</Property>
 		</Item>
-		<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
 		<Item Name="FEM-web" Type="Web Service">
+			<Property Name="Bld_buildSpecName" Type="Str"></Property>
+			<Property Name="Bld_version.build" Type="Int">22</Property>
+			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
+			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
+			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
 			<Property Name="ws.guid" Type="Str">{64C92A79-8C13-4841-A955-9D454AAA02F7}</Property>
-			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
+			<Property Name="ws.modifyLibraryFile" Type="Bool">true</Property>
+			<Property Name="ws.remoteDebugging" Type="Bool">false</Property>
+			<Property Name="ws.removeLibraryItems" Type="Bool">true</Property>
+			<Property Name="ws.removePolyVIs" Type="Bool">true</Property>
+			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
+			<Property Name="ws.SSE2" Type="Bool">true</Property>
+			<Property Name="ws.static_permissions" Type="Str"></Property>
+			<Property Name="ws.version.build" Type="Int">22</Property>
+			<Property Name="ws.version.fix" Type="Int">0</Property>
+			<Property Name="ws.version.major" Type="Int">1</Property>
+			<Property Name="ws.version.minor" Type="Int">0</Property>
+			<Item Name="Web Resources" Type="HTTP WebResources Container">
+				<Item Name="GetTemperatures.vi" Type="VI" URL="../WebServices/GetTemperatures.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">0</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+				<Item Name="GetRemoteState.vi" Type="VI" URL="../WebServices/GetRemoteState.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">0</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+				<Item Name="GetEnvCover.vi" Type="VI" URL="../WebServices/GetEnvCover.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">0</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+				<Item Name="SetEnvCover.vi" Type="VI" URL="../WebServices/SetEnvCover.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">3</Property>
+					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">0</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+				<Item Name="GetFTTCommState.vi" Type="VI" URL="../controls/GetFTTCommState.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">2</Property>
+					<Property Name="ws.outputType" Type="Int">0</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+			</Item>
+			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

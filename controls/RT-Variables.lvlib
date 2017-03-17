@@ -83,11 +83,13 @@
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!"!#N!&amp;A!%"%^Q:7Y'47^W;7ZH"5.M&lt;X.F"&amp;&gt;B;81!!!J.&lt;X2P=F.U982F!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="CalColorState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:ColorStates.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../ColorStates.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"M;!!!!"9!A!!!!!!"!&amp;9!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^$&lt;WRP=F.U982F=SZD&gt;'Q!+U!7!!-$5G6E"FFF&lt;'RP&gt;Q6(=G6F&lt;A!!$%.P&lt;'^S5X2B&gt;'6*&lt;A!!!1!!!!!!!!!!!!!!!!</Property>

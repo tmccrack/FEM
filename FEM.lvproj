@@ -1,32 +1,43 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
+	<Property Name="varPersistentID:{11BAC982-7074-4392-922D-C2FF78A4DA86}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/RemoteState</Property>
+	<Property Name="varPersistentID:{154E1B3C-36A0-4033-AFBE-F38A243DC84D}" Type="Ref">/fem-rt/RT-Variables.lvlib/Stop</Property>
 	<Property Name="varPersistentID:{15ABF437-88E4-4C04-AF37-EE3808911EBC}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalMotorState</Property>
 	<Property Name="varPersistentID:{24A7988E-C329-4956-B62E-11AF33198752}" Type="Ref">/fem-rt/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{2B7C8870-545E-40E4-BB82-5F13005F7341}" Type="Ref">/fem-rt/Chassis/Mod3/AI6</Property>
+	<Property Name="varPersistentID:{2CB82A26-6E20-4E7E-A811-AFF459E22B6A}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvCovSet</Property>
 	<Property Name="varPersistentID:{34EC0043-BEC0-43CB-BCA3-331E3E805955}" Type="Ref">/fem-rt/Chassis/Mod3/AI7</Property>
 	<Property Name="varPersistentID:{381F9B58-66EB-4D42-B87C-CA88F5F3D3B8}" Type="Ref">/fem-rt/Chassis/Mod2/AI0</Property>
 	<Property Name="varPersistentID:{3E6A108D-8E67-48D2-83FC-50E4B78FB187}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPower</Property>
 	<Property Name="varPersistentID:{42E5AE66-3468-4DA1-9FD2-E9650517BEB7}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvColorState</Property>
 	<Property Name="varPersistentID:{432A7265-8E4C-42DA-943D-B185E76EBE14}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverClosed</Property>
 	<Property Name="varPersistentID:{453E1EA6-1957-4B0C-A879-DA4E5A396305}" Type="Ref">/fem-rt/RT-Variables.lvlib/RemoteState</Property>
+	<Property Name="varPersistentID:{4718BD03-BE5D-4113-98ED-CD619BBC77E6}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{4E4CF323-224E-4B7B-836D-E8EB9A2048C0}" Type="Ref">/fem-rt/Chassis/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{529072D5-33D3-4B5A-A0AE-F3CF5BF9A190}" Type="Ref">/fem-rt/Chassis/Mod7/CalMotorIn</Property>
+	<Property Name="varPersistentID:{54CB8F0D-C5D1-4030-A7C1-8F3658B608C7}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalMotorState</Property>
 	<Property Name="varPersistentID:{54FF75B9-7054-4ABF-99B7-EF1C4DB3D7B3}" Type="Ref">/fem-rt/Chassis/Mod3/AI4</Property>
+	<Property Name="varPersistentID:{869B6221-6A0A-4A7A-9A72-E90B0F548209}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{88F6371B-7126-42EC-978E-E1836D9B997A}" Type="Ref">/fem-rt/Chassis/Mod7/CalMotorOut</Property>
 	<Property Name="varPersistentID:{8AEA2EFE-A15B-4616-9764-E423EF0CAA48}" Type="Ref">/fem-rt/Chassis/Mod6/PowerSupplies</Property>
 	<Property Name="varPersistentID:{927B2EE7-2B59-4B5C-A009-08BD64A8E686}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPol</Property>
+	<Property Name="varPersistentID:{937AC646-381F-4A2B-B825-AB8B8885BC58}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvCovSet</Property>
+	<Property Name="varPersistentID:{9CA5576C-52B4-475C-88A0-9E67A202B266}" Type="Ref">/My Computer/NonRT-Variables.lvlib/LocalHostCommState</Property>
 	<Property Name="varPersistentID:{A451F0D6-F530-409C-985A-9864ABF507AF}" Type="Ref">/fem-rt/Chassis/Mod2/AI2</Property>
 	<Property Name="varPersistentID:{AFA3F0A6-AF1E-4873-B4BE-36A15BFE6BC9}" Type="Ref">/fem-rt/Chassis/Mod7/DI7</Property>
-	<Property Name="varPersistentID:{B8F8ED39-3BFE-43E5-8A0B-E00ACA515872}" Type="Ref">/fem-rt/RT-Variables.lvlib/CoverState</Property>
+	<Property Name="varPersistentID:{B8F8ED39-3BFE-43E5-8A0B-E00ACA515872}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvCovMotSta</Property>
 	<Property Name="varPersistentID:{C69EC1CA-E2AB-436D-82C1-E394592A4AB1}" Type="Ref">/fem-rt/Chassis/Mod7/SwOff</Property>
 	<Property Name="varPersistentID:{CC2C01DB-F431-404C-B652-C0CF45937D1B}" Type="Ref">/fem-rt/Chassis/Mod7/SwRemote</Property>
 	<Property Name="varPersistentID:{CD2C659D-147E-4CD4-B2E9-B679067394C0}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalColorState</Property>
+	<Property Name="varPersistentID:{D2039A03-02AD-4A53-BDE7-CEE0E65897DB}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvCovMotSta</Property>
 	<Property Name="varPersistentID:{D724251E-E157-4B61-896C-C20271FA08DC}" Type="Ref">/fem-rt/Chassis/Mod2/AI1</Property>
 	<Property Name="varPersistentID:{D7C983B5-3682-42DD-9B68-EC1E30F8323B}" Type="Ref">/fem-rt/Chassis/Mod6/DO3</Property>
 	<Property Name="varPersistentID:{DB5947B8-C16E-4250-965B-A2AD3D8DA566}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverOpen</Property>
 	<Property Name="varPersistentID:{E4D8BCAB-1D67-4219-8907-2D91BB1F666C}" Type="Ref">/fem-rt/RT-Variables.lvlib/FTTCommState</Property>
+	<Property Name="varPersistentID:{E4F4842F-2BCF-4A03-9BA4-E0C8296201A8}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvColorState</Property>
 	<Property Name="varPersistentID:{EA76F171-C18E-41C3-A613-74D8FBDD4032}" Type="Ref">/fem-rt/Chassis/Mod7/SwLocal</Property>
 	<Property Name="varPersistentID:{ED928925-422D-46C3-9337-008A647419B9}" Type="Ref">/fem-rt/Chassis/Mod2/AI3</Property>
+	<Property Name="varPersistentID:{F3A95FE8-E724-46EA-963B-65B50A5E358E}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalColorState</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -72,11 +83,22 @@
 			<Item Name="mirrorTestInterface.vi" Type="VI" URL="../FTT/mirror/mirrorTestInterface.vi"/>
 		</Item>
 		<Item Name="controlValuesManual.vi" Type="VI" URL="../FTT/support/controlValuesManual.vi"/>
+		<Item Name="LocalHostServer.vi" Type="VI" URL="../LocalHostServer.vi"/>
 		<Item Name="mirrorManualMove.vi" Type="VI" URL="../FTT/mirror/mirrorManualMove.vi"/>
 		<Item Name="mirrorManualValues.vi" Type="VI" URL="../FTT/mirror/mirrorManualValues.vi"/>
+		<Item Name="NonRT-Variables.lvlib" Type="Library" URL="../controls/NonRT-Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="cameraLibrary.lvlib" Type="Library" URL="/&lt;userlib&gt;/cameraLibrary/cameraLibrary.lvlib"/>
+				<Item Name="abort Acquisition LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/abort Acquisition LV.vi"/>
+				<Item Name="acquire Closed Loop LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Closed Loop LV.vi"/>
+				<Item Name="acquire Full Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Full Frame LV.vi"/>
+				<Item Name="acquire Sub Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Sub Frame LV.vi"/>
+				<Item Name="get Camera Data LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Camera Data LV.vi"/>
+				<Item Name="get Control Values LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Control Values LV.vi"/>
+				<Item Name="initialize Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/initialize Camera LV.vi"/>
+				<Item Name="set Frame Size LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Frame Size LV.vi"/>
+				<Item Name="set Temperature LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Temperature LV.vi"/>
+				<Item Name="shutdown Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/shutdown Camera LV.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -122,6 +144,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -217,6 +240,7 @@ DirectoryIndex index.htm
 			<Item Name="SwitchRT.vi" Type="VI" URL="../Switch/SwitchRT.vi"/>
 			<Item Name="TemperatureRT.vi" Type="VI" URL="../Enviro/TemperatureRT.vi"/>
 			<Item Name="SetColorState.vi" Type="VI" URL="../Motors/SetColorState.vi"/>
+			<Item Name="EnvCoverPwrState.vi" Type="VI" URL="../Motors/EnvCoverPwrState.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1060,15 +1084,19 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
 		<Item Name="mirrorInterface.vi" Type="VI" URL="../FTT/mirror/mirrorInterface.vi"/>
-		<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
+		<Item Name="RTUserInterface.vi" Type="VI" URL="../Support/RTUserInterface.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="EnvCoverGetState.vi" Type="VI" URL="../Motors/EnvCoverGetState.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RTInit.vi" Type="VI" URL="../Support/RTInit.vi"/>
+			<Item Name="RTShutdown.vi" Type="VI" URL="../Support/RTShutdown.vi"/>
+			<Item Name="EnvCoverChkState.vi" Type="VI" URL="../Motors/EnvCoverChkState.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

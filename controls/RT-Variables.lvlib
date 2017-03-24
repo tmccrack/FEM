@@ -9,31 +9,12 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MainRT.vi" Type="Friended VI" URL="../../MainRT.vi"/>
 	</Item>
-	<Item Name="CoverState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!"!#N!&amp;A!%"%^Q:7Y'47^W;7ZH"5.M&lt;X.F"&amp;&gt;B;81!!!J.&lt;X2P=F.U982F!!!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="RemoteState" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:SwitchStates.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../SwitchStates.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"L:Q!!!"9!A!!!!!!"!&amp;5!]&gt;/Y"&amp;!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9B"4&gt;WFU9WB4&gt;'&amp;U:8-O9X2M!#F!&amp;A!$!U^G:A6-&lt;W.B&lt;!:3:7VP&gt;'5!!!N4&gt;WFU9WB4&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
+	<Item Name="MotorPowerStates.ctl" Type="VI" URL="../MotorPowerStates.ctl"/>
+	<Item Name="MotorSetStates.ctl" Type="VI" URL="../MotorSetStates.ctl"/>
 	<Item Name="MotorStates.ctl" Type="VI" URL="../MotorStates.ctl"/>
 	<Item Name="SwitchStates.ctl" Type="VI" URL="../SwitchStates.ctl"/>
+	<Item Name="ColorStates.ctl" Type="VI" URL="../ColorStates.ctl"/>
+	<Item Name="SocketServerStates.ctl" Type="VI" URL="../SocketServerStates.ctl"/>
 	<Item Name="Temperature" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -57,7 +38,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="ColorStates.ctl" Type="VI" URL="../ColorStates.ctl"/>
 	<Item Name="EnvColorState" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -73,16 +53,35 @@
 		<Property Name="typedefPath1" Type="PathRel">../ColorStates.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!^/1!!!"9!A!!!!!!"!#&gt;!&amp;A!$!V*F:!:::7RM&lt;X=&amp;2X*F:7Y!!!R$&lt;WRP=F.U982F37Y!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="CalMotorState" Type="Variable">
+	<Item Name="EnvCovSet" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:MotorSetStates.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../MotorSetStates.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9B*.&lt;X2P=F.F&gt;&amp;.U982F=SZD&gt;'Q!)U!7!!)%4X"F&lt;A6$&lt;'^T:1!!#U6O&gt;E.P&gt;G6S5'^T!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="EnvCovMotSta" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!"!#N!&amp;A!%"%^Q:7Y'47^W;7ZH"5.M&lt;X.F"&amp;&gt;B;81!!!J.&lt;X2P=F.U982F!!!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:MotorStates.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../MotorStates.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"9!A!!!!!!"!&amp;1!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^.&lt;X2P=F.U982F=SZD&gt;'Q!+5!7!!-%4X"F&lt;A6$&lt;'^T:1:.&lt;X:J&lt;G=!#EVP&gt;'^S5X2B&gt;'5!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="CalColorState" Type="Variable">
+	<Item Name="RemoteState" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -90,8 +89,24 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:ColorStates.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../ColorStates.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"M;!!!!"9!A!!!!!!"!&amp;9!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^$&lt;WRP=F.U982F=SZD&gt;'Q!+U!7!!-$5G6E"FFF&lt;'RP&gt;Q6(=G6F&lt;A!!$%.P&lt;'^S5X2B&gt;'6*&lt;A!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:SwitchStates.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../SwitchStates.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"L:Q!!!"9!A!!!!!!"!&amp;5!]&gt;/Y"&amp;!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9B"4&gt;WFU9WB4&gt;'&amp;U:8-O9X2M!#F!&amp;A!$!U^G:A6-&lt;W.B&lt;!:3:7VP&gt;'5!!!N4&gt;WFU9WB4&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Stop" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

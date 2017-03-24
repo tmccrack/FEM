@@ -1,8 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
-	<Property Name="varPersistentID:{11BAC982-7074-4392-922D-C2FF78A4DA86}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/RemoteState</Property>
 	<Property Name="varPersistentID:{154E1B3C-36A0-4033-AFBE-F38A243DC84D}" Type="Ref">/fem-rt/RT-Variables.lvlib/Stop</Property>
-	<Property Name="varPersistentID:{15ABF437-88E4-4C04-AF37-EE3808911EBC}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalMotorState</Property>
 	<Property Name="varPersistentID:{24A7988E-C329-4956-B62E-11AF33198752}" Type="Ref">/fem-rt/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{2B7C8870-545E-40E4-BB82-5F13005F7341}" Type="Ref">/fem-rt/Chassis/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{2CB82A26-6E20-4E7E-A811-AFF459E22B6A}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvCovSet</Property>
@@ -12,32 +10,24 @@
 	<Property Name="varPersistentID:{42E5AE66-3468-4DA1-9FD2-E9650517BEB7}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvColorState</Property>
 	<Property Name="varPersistentID:{432A7265-8E4C-42DA-943D-B185E76EBE14}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverClosed</Property>
 	<Property Name="varPersistentID:{453E1EA6-1957-4B0C-A879-DA4E5A396305}" Type="Ref">/fem-rt/RT-Variables.lvlib/RemoteState</Property>
-	<Property Name="varPersistentID:{4718BD03-BE5D-4113-98ED-CD619BBC77E6}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{4E4CF323-224E-4B7B-836D-E8EB9A2048C0}" Type="Ref">/fem-rt/Chassis/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{529072D5-33D3-4B5A-A0AE-F3CF5BF9A190}" Type="Ref">/fem-rt/Chassis/Mod7/CalMotorIn</Property>
-	<Property Name="varPersistentID:{54CB8F0D-C5D1-4030-A7C1-8F3658B608C7}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalMotorState</Property>
 	<Property Name="varPersistentID:{54FF75B9-7054-4ABF-99B7-EF1C4DB3D7B3}" Type="Ref">/fem-rt/Chassis/Mod3/AI4</Property>
-	<Property Name="varPersistentID:{869B6221-6A0A-4A7A-9A72-E90B0F548209}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{88F6371B-7126-42EC-978E-E1836D9B997A}" Type="Ref">/fem-rt/Chassis/Mod7/CalMotorOut</Property>
 	<Property Name="varPersistentID:{8AEA2EFE-A15B-4616-9764-E423EF0CAA48}" Type="Ref">/fem-rt/Chassis/Mod6/PowerSupplies</Property>
 	<Property Name="varPersistentID:{927B2EE7-2B59-4B5C-A009-08BD64A8E686}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPol</Property>
-	<Property Name="varPersistentID:{937AC646-381F-4A2B-B825-AB8B8885BC58}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvCovSet</Property>
 	<Property Name="varPersistentID:{9CA5576C-52B4-475C-88A0-9E67A202B266}" Type="Ref">/My Computer/NonRT-Variables.lvlib/LocalHostCommState</Property>
 	<Property Name="varPersistentID:{A451F0D6-F530-409C-985A-9864ABF507AF}" Type="Ref">/fem-rt/Chassis/Mod2/AI2</Property>
 	<Property Name="varPersistentID:{AFA3F0A6-AF1E-4873-B4BE-36A15BFE6BC9}" Type="Ref">/fem-rt/Chassis/Mod7/DI7</Property>
 	<Property Name="varPersistentID:{B8F8ED39-3BFE-43E5-8A0B-E00ACA515872}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvCovMotSta</Property>
 	<Property Name="varPersistentID:{C69EC1CA-E2AB-436D-82C1-E394592A4AB1}" Type="Ref">/fem-rt/Chassis/Mod7/SwOff</Property>
 	<Property Name="varPersistentID:{CC2C01DB-F431-404C-B652-C0CF45937D1B}" Type="Ref">/fem-rt/Chassis/Mod7/SwRemote</Property>
-	<Property Name="varPersistentID:{CD2C659D-147E-4CD4-B2E9-B679067394C0}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalColorState</Property>
-	<Property Name="varPersistentID:{D2039A03-02AD-4A53-BDE7-CEE0E65897DB}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvCovMotSta</Property>
 	<Property Name="varPersistentID:{D724251E-E157-4B61-896C-C20271FA08DC}" Type="Ref">/fem-rt/Chassis/Mod2/AI1</Property>
 	<Property Name="varPersistentID:{D7C983B5-3682-42DD-9B68-EC1E30F8323B}" Type="Ref">/fem-rt/Chassis/Mod6/DO3</Property>
 	<Property Name="varPersistentID:{DB5947B8-C16E-4250-965B-A2AD3D8DA566}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverOpen</Property>
 	<Property Name="varPersistentID:{E4D8BCAB-1D67-4219-8907-2D91BB1F666C}" Type="Ref">/fem-rt/RT-Variables.lvlib/FTTCommState</Property>
-	<Property Name="varPersistentID:{E4F4842F-2BCF-4A03-9BA4-E0C8296201A8}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvColorState</Property>
 	<Property Name="varPersistentID:{EA76F171-C18E-41C3-A613-74D8FBDD4032}" Type="Ref">/fem-rt/Chassis/Mod7/SwLocal</Property>
 	<Property Name="varPersistentID:{ED928925-422D-46C3-9337-008A647419B9}" Type="Ref">/fem-rt/Chassis/Mod2/AI3</Property>
-	<Property Name="varPersistentID:{F3A95FE8-E724-46EA-963B-65B50A5E358E}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalColorState</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -144,7 +134,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
+			<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -153,7 +143,7 @@
 		<Property Name="alias.value" Type="Str">172.28.139.52</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7743;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7743</Property>
-		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
+		<Property Name="DisableAutoDeployVariables" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -235,12 +225,15 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="support" Type="Folder">
-			<Item Name="CalInjectRT.vi" Type="VI" URL="../Motors/CalInjectRT.vi"/>
 			<Item Name="EnvCoverRT.vi" Type="VI" URL="../Motors/EnvCoverRT.vi"/>
 			<Item Name="SwitchRT.vi" Type="VI" URL="../Switch/SwitchRT.vi"/>
 			<Item Name="TemperatureRT.vi" Type="VI" URL="../Enviro/TemperatureRT.vi"/>
 			<Item Name="SetColorState.vi" Type="VI" URL="../Motors/SetColorState.vi"/>
 			<Item Name="EnvCoverPwrState.vi" Type="VI" URL="../Motors/EnvCoverPwrState.vi"/>
+			<Item Name="EnvCoverGetState.vi" Type="VI" URL="../Motors/EnvCoverGetState.vi"/>
+			<Item Name="RTShutdown.vi" Type="VI" URL="../Support/RTShutdown.vi"/>
+			<Item Name="EnvCoverChkState.vi" Type="VI" URL="../Motors/EnvCoverChkState.vi"/>
+			<Item Name="RTInit.vi" Type="VI" URL="../Support/RTInit.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -872,6 +865,7 @@ DirectoryIndex index.htm
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TMM/repos/EXPRES/FEM/MainFPGA.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -1030,22 +1024,18 @@ DirectoryIndex index.htm
 					<Property Name="FPGA.PersistentID" Type="Str">{115BE584-631E-4F6F-A27E-A8D75C55A080}</Property>
 				</Item>
 				<Item Name="MainFPGA.vi" Type="VI" URL="../MainFPGA.vi">
-					<Property Name="BuildSpec" Type="Str">{AD8BE52C-C844-4A0F-94C8-B000413C8DBB}</Property>
+					<Property Name="BuildSpec" Type="Str">{3190B592-35F5-4BE6-9AB2-CBAD6A101A88}</Property>
 					<Property Name="configString.guid" Type="Str">{115BE584-631E-4F6F-A27E-A8D75C55A080}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9269,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{4B193CC0-6595-4E95-ADA0-7877C1D258CF}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{4C3A22AB-C9B5-4961-A35D-7D5299B4240F}"ControlLogic=0;NumberOfElements=27;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=2;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FTT-FIFO;DataType=1000800000000001003C005F03510014000000050001001400000005FFFFFFFFFFF800000001001400000005000000000007FFFF00000001FFFFFFF2000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{58331838-629C-412D-AFD9-BCF4B80B4D0B}resource=/crio_Mod5/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{616AB525-CE68-47A7-B916-4013AE21CF4F}[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{716D4942-7D2E-491B-8434-471431BC7874}resource=/Chassis Temperature;0;ReadMethodType=i16{78263B72-2EAD-4264-BFC9-98808DA4C5E5}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{7BED3F2D-BB1D-494D-871B-3AB9F34F1A24}resource=/Scan Clock;0;ReadMethodType=bool{81DFD501-E470-434B-9AA9-0BD348365FEF}cRIO Subresource{9BA03964-F226-4AF5-8E75-420FFCC3A728}cRIO Subresource{AD1FF34B-B33D-4C9D-AF51-48400D408FA0}resource=/crio_Mod5/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{AE01B548-2ECD-4FE7-9D1E-069690B464AC}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{B3DD939F-8479-47F0-8656-7C9850BD22F3}[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{C3EAA58F-8960-4FE5-B35F-81756B0279FA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{D3FE0FE2-125D-4DDB-A7ED-09124CFDE1DE}resource=/crio_Mod5/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DFB0DE26-AC33-40CB-94B6-697C891D1761}cRIO Subresource{E08DDE54-CCF6-4CED-93BC-67CB71A26BCB}[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{E2EE3BE5-6DA2-4B85-B48A-FA3EBCD8A684}resource=/crio_Mod5/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EE703F9F-A9C7-44C5-B60B-3D858986A0A5}cRIO Subresource{EE8160C8-7DEC-4FF5-B70F-D7841DA87929}[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]{FF625485-63F3-4724-B7C5-B851B60F18F5}[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FTT-FIFO"ControlLogic=0;NumberOfElements=27;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=2;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FTT-FIFO;DataType=1000800000000001003C005F03510014000000050001001400000005FFFFFFFFFFF800000001001400000005000000000007FFFF00000001FFFFFFF2000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5/AO0resource=/crio_Mod5/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO1resource=/crio_Mod5/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO2resource=/crio_Mod5/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO3resource=/crio_Mod5/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9269,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\admin\repos\FEM\FPGA Bitfiles\FEM_FPGATarget_MainFPGA_-0WywfwiEVc.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TMM\repos\EXPRES\FEM\FPGA Bitfiles\FEM_FPGATarget_MainFPGA_7cEOoiE1C3Y.lvbitx</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					</Item>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="MainFPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">MainFPGA</Property>
-						<Property Name="Comp.BitfileName" Type="Str">FEM_FPGATarget_MainFPGA_-0WywfwiEVc.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">FEM_FPGATarget_MainFPGA_7cEOoiE1C3Y.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1069,9 +1059,9 @@ DirectoryIndex index.htm
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/admin/repos/FEM/FPGA Bitfiles/FEM_FPGATarget_MainFPGA_-0WywfwiEVc.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FEM_FPGATarget_MainFPGA_-0WywfwiEVc.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/admin/repos/FEM/FEM.lvproj</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/TMM/repos/EXPRES/FEM/FPGA Bitfiles/FEM_FPGATarget_MainFPGA_7cEOoiE1C3Y.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FEM_FPGATarget_MainFPGA_7cEOoiE1C3Y.lvbitx</Property>
+						<Property Name="ProjectPath" Type="Path">/C/Users/TMM/repos/EXPRES/FEM/FEM.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">true</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
@@ -1090,13 +1080,9 @@ DirectoryIndex index.htm
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
-			<Item Name="EnvCoverGetState.vi" Type="VI" URL="../Motors/EnvCoverGetState.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RTInit.vi" Type="VI" URL="../Support/RTInit.vi"/>
-			<Item Name="RTShutdown.vi" Type="VI" URL="../Support/RTShutdown.vi"/>
-			<Item Name="EnvCoverChkState.vi" Type="VI" URL="../Motors/EnvCoverChkState.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -79,16 +79,7 @@
 		<Item Name="NonRT-Variables.lvlib" Type="Library" URL="../controls/NonRT-Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="abort Acquisition LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/abort Acquisition LV.vi"/>
-				<Item Name="acquire Closed Loop LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Closed Loop LV.vi"/>
-				<Item Name="acquire Full Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Full Frame LV.vi"/>
-				<Item Name="acquire Sub Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Sub Frame LV.vi"/>
-				<Item Name="get Camera Data LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Camera Data LV.vi"/>
-				<Item Name="get Control Values LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Control Values LV.vi"/>
-				<Item Name="initialize Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/initialize Camera LV.vi"/>
-				<Item Name="set Frame Size LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Frame Size LV.vi"/>
-				<Item Name="set Temperature LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Temperature LV.vi"/>
-				<Item Name="shutdown Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/shutdown Camera LV.vi"/>
+				<Item Name="cameraLibrary.lvlib" Type="Library" URL="/&lt;userlib&gt;/cameraLibrary/cameraLibrary.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -143,7 +134,7 @@
 		<Property Name="alias.value" Type="Str">172.28.139.52</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7743;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7743</Property>
-		<Property Name="DisableAutoDeployVariables" Type="Bool">true</Property>
+		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
@@ -865,7 +856,7 @@ DirectoryIndex index.htm
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/TMM/repos/EXPRES/FEM/MainFPGA.vi</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/admin/repos/FEM/MainFPGA.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -1029,7 +1020,11 @@ DirectoryIndex index.htm
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9066/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9066FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FTT-FIFO"ControlLogic=0;NumberOfElements=27;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=2;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FTT-FIFO;DataType=1000800000000001003C005F03510014000000050001001400000005FFFFFFFFFFF800000001001400000005000000000007FFFF00000001FFFFFFF2000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod2[crioConfig.Begin]crio.Location=Slot 2,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod3[crioConfig.Begin]crio.Location=Slot 3,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod5/AO0resource=/crio_Mod5/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO1resource=/crio_Mod5/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO2resource=/crio_Mod5/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5/AO3resource=/crio_Mod5/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9269,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod6[crioConfig.Begin]crio.Location=Slot 6,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod7[crioConfig.Begin]crio.Location=Slot 7,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Mod8[crioConfig.Begin]crio.Location=Slot 8,cRIOModule.EnableHsInput=false,cRIOModule.EnableHsOutput=false,cRIOModule.EnableSpecialtyDigital=false[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\TMM\repos\EXPRES\FEM\FPGA Bitfiles\FEM_FPGATarget_MainFPGA_7cEOoiE1C3Y.lvbitx</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Dependencies" Type="Dependencies">
+					<Item Name="vi.lib" Type="Folder">
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+					</Item>
+				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="MainFPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>

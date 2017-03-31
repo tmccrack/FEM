@@ -233,6 +233,7 @@ DirectoryIndex index.htm
 			<Item Name="EnvCoverChkState.vi" Type="VI" URL="../Motors/EnvCoverChkState.vi"/>
 			<Item Name="RTShutdown.vi" Type="VI" URL="../Support/RTShutdown.vi"/>
 			<Item Name="RTInit.vi" Type="VI" URL="../Support/RTInit.vi"/>
+			<Item Name="RTTouchVariables.vi" Type="VI" URL="../Support/RTTouchVariables.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -1087,7 +1088,7 @@ DirectoryIndex index.htm
 		<Item Name="RTUserInterface.vi" Type="VI" URL="../Support/RTUserInterface.vi"/>
 		<Item Name="FEM" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">81</Property>
+			<Property Name="Bld_version.build" Type="Int">84</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -1099,7 +1100,7 @@ DirectoryIndex index.htm
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">81</Property>
+			<Property Name="ws.version.build" Type="Int">84</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -1167,7 +1168,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
-		<Item Name="RTTouchVariables.vi" Type="VI" URL="../Support/RTTouchVariables.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

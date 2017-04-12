@@ -78,7 +78,16 @@
 		<Item Name="NonRT-Variables.lvlib" Type="Library" URL="../controls/NonRT-Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="cameraLibrary.lvlib" Type="Library" URL="/&lt;userlib&gt;/cameraLibrary/cameraLibrary.lvlib"/>
+				<Item Name="abort Acquisition LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/abort Acquisition LV.vi"/>
+				<Item Name="acquire Closed Loop LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Closed Loop LV.vi"/>
+				<Item Name="acquire Full Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Full Frame LV.vi"/>
+				<Item Name="acquire Sub Frame LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/acquire Sub Frame LV.vi"/>
+				<Item Name="get Camera Data LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Camera Data LV.vi"/>
+				<Item Name="get Control Values LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/get Control Values LV.vi"/>
+				<Item Name="initialize Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/initialize Camera LV.vi"/>
+				<Item Name="set Frame Size LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Frame Size LV.vi"/>
+				<Item Name="set Temperature LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/set Temperature LV.vi"/>
+				<Item Name="shutdown Camera LV.vi" Type="VI" URL="/&lt;userlib&gt;/cameraLibrary/VIs/shutdown Camera LV.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

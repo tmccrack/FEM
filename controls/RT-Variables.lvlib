@@ -97,4 +97,19 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="CalMotSta" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:MotorStates.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../MotorStates.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"9!A!!!!!!"!&amp;1!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^.&lt;X2P=F.U982F=SZD&gt;'Q!+5!7!!-%4X"F&lt;A6$&lt;'^T:1:.&lt;X:J&lt;G=!#EVP&gt;'^S5X2B&gt;'5!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>

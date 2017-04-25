@@ -67,7 +67,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:MotorStates.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../MotorStates.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"9!A!!!!!!"!&amp;1!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^.&lt;X2P=F.U982F=SZD&gt;'Q!+5!7!!-%4X"F&lt;A6$&lt;'^T:1:.&lt;X:J&lt;G=!#EVP&gt;'^S5X2B&gt;'5!!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"S&lt;A!!!"9!A!!!!!!"!&amp;Q!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^.&lt;X2P=F.U982F=SZD&gt;'Q!-5!7!!1%4X"F&lt;A6$&lt;'^T:1:.&lt;X:J&lt;G=(5W.S:8&gt;F:!!+47^U&lt;X*4&gt;'&amp;U:1!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="RemoteState" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
@@ -110,6 +110,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">RT-Variables.lvlib:MotorStates.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../MotorStates.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"K:A!!!"9!A!!!!!!"!&amp;1!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^.&lt;X2P=F.U982F=SZD&gt;'Q!+5!7!!-%4X"F&lt;A6$&lt;'^T:1:.&lt;X:J&lt;G=!#EVP&gt;'^S5X2B&gt;'5!!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"S&lt;A!!!"9!A!!!!!!"!&amp;Q!]1!!!!!!!!!#%F*5,6:B=GFB9GRF=SZM&gt;GRJ9A^.&lt;X2P=F.U982F=SZD&gt;'Q!-5!7!!1%4X"F&lt;A6$&lt;'^T:1:.&lt;X:J&lt;G=(5W.S:8&gt;F:!!+47^U&lt;X*4&gt;'&amp;U:1!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

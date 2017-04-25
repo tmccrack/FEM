@@ -762,6 +762,7 @@ DirectoryIndex index.htm
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
 					<Property Name="Industrial:PhysicalName" Type="Str">DI5</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -776,6 +777,7 @@ DirectoryIndex index.htm
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
 					<Property Name="Industrial:PhysicalName" Type="Str">DI6</Property>
+					<Property Name="Network:BuffSize" Type="Str">50</Property>
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>

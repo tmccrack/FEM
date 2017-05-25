@@ -48,7 +48,7 @@
 	</Item>
 	<Item Name="fem-rt" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">fem-rt</Property>
-		<Property Name="alias.value" Type="Str">172.28.139.52</Property>
+		<Property Name="alias.value" Type="Str">fem-rt.central.yale.internal</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7743;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7743</Property>
 		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
@@ -1001,7 +1001,7 @@ DirectoryIndex index.htm
 		<Item Name="RTUserInterface.vi" Type="VI" URL="../Support/RTUserInterface.vi"/>
 		<Item Name="FEM" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">92</Property>
+			<Property Name="Bld_version.build" Type="Int">94</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -1013,7 +1013,7 @@ DirectoryIndex index.htm
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">92</Property>
+			<Property Name="ws.version.build" Type="Int">94</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>

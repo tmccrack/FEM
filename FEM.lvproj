@@ -1,26 +1,39 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{154E1B3C-36A0-4033-AFBE-F38A243DC84D}" Type="Ref">/fem-rt/RT-Variables.lvlib/Stop</Property>
+	<Property Name="varPersistentID:{1C412643-E627-4CEF-AAB9-BB4F06DDDFDA}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{1C7F1249-2D8B-4B52-BE44-79C3C742E287}" Type="Ref">/fem-rt/RT-Variables.lvlib/Temperature</Property>
+	<Property Name="varPersistentID:{24F54509-6C2D-4825-A509-D0B370B4DC14}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/FTTCommState</Property>
 	<Property Name="varPersistentID:{2B7C8870-545E-40E4-BB82-5F13005F7341}" Type="Ref">/fem-rt/Chassis/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{2CB82A26-6E20-4E7E-A811-AFF459E22B6A}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvCovSet</Property>
 	<Property Name="varPersistentID:{34EC0043-BEC0-43CB-BCA3-331E3E805955}" Type="Ref">/fem-rt/Chassis/Mod3/AI7</Property>
 	<Property Name="varPersistentID:{381F9B58-66EB-4D42-B87C-CA88F5F3D3B8}" Type="Ref">/fem-rt/Chassis/Mod2/AI0</Property>
+	<Property Name="varPersistentID:{38738027-32E2-45E2-8A10-32737FB4A56E}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvCovMotSta</Property>
 	<Property Name="varPersistentID:{3E6A108D-8E67-48D2-83FC-50E4B78FB187}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPower</Property>
+	<Property Name="varPersistentID:{3E9C9F3F-3D93-4935-B043-4F999B62E6C7}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/Temperature</Property>
 	<Property Name="varPersistentID:{432A7265-8E4C-42DA-943D-B185E76EBE14}" Type="Ref">/fem-rt/Chassis/Mod7/EnvCoverClosed</Property>
 	<Property Name="varPersistentID:{453E1EA6-1957-4B0C-A879-DA4E5A396305}" Type="Ref">/fem-rt/RT-Variables.lvlib/RemoteState</Property>
+	<Property Name="varPersistentID:{4CE30581-ED25-4B06-946C-6F5AFD440EA0}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{4E0CC7A4-45F6-4A98-A306-7B6B796FEFC0}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{4E4CF323-224E-4B7B-836D-E8EB9A2048C0}" Type="Ref">/fem-rt/Chassis/Mod3/AI5</Property>
 	<Property Name="varPersistentID:{529072D5-33D3-4B5A-A0AE-F3CF5BF9A190}" Type="Ref">/fem-rt/Chassis/Mod7/CalMotorIn</Property>
 	<Property Name="varPersistentID:{54FF75B9-7054-4ABF-99B7-EF1C4DB3D7B3}" Type="Ref">/fem-rt/Chassis/Mod3/AI4</Property>
+	<Property Name="varPersistentID:{5D0990BC-DEA0-4DB1-AFF6-9236AF64F2E0}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/RemoteState</Property>
+	<Property Name="varPersistentID:{62ABA4A1-1E33-423E-9ED7-400EB58FF324}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/CalMotSta</Property>
+	<Property Name="varPersistentID:{63EFD98D-423A-4456-82E6-C74D6EB2C5C1}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{66C6715D-FDFC-4E1C-A89D-3B83AD5C553B}" Type="Ref">/fem-rt/RT-Variables.lvlib/CalMotSta</Property>
+	<Property Name="varPersistentID:{79A194CB-9D7F-4663-9F89-83D7D7D3A673}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/Stop</Property>
 	<Property Name="varPersistentID:{88F6371B-7126-42EC-978E-E1836D9B997A}" Type="Ref">/fem-rt/Chassis/Mod7/CalMotorOut</Property>
+	<Property Name="varPersistentID:{8A8FCD76-E01C-4F6A-B706-7AF84AC1BB0D}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{8AEA2EFE-A15B-4616-9764-E423EF0CAA48}" Type="Ref">/fem-rt/Chassis/Mod6/PowerSupplies</Property>
 	<Property Name="varPersistentID:{927B2EE7-2B59-4B5C-A009-08BD64A8E686}" Type="Ref">/fem-rt/Chassis/Mod6/EnvCoverPol</Property>
+	<Property Name="varPersistentID:{976C3252-C8A2-464B-A984-14B6281EF45C}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{9CA5576C-52B4-475C-88A0-9E67A202B266}" Type="Ref">/My Computer/NonRT-Variables.lvlib/LocalHostCommState</Property>
 	<Property Name="varPersistentID:{A451F0D6-F530-409C-985A-9864ABF507AF}" Type="Ref">/fem-rt/Chassis/Mod2/AI2</Property>
 	<Property Name="varPersistentID:{AFA3F0A6-AF1E-4873-B4BE-36A15BFE6BC9}" Type="Ref">/fem-rt/Chassis/Mod7/DI7</Property>
 	<Property Name="varPersistentID:{B8F8ED39-3BFE-43E5-8A0B-E00ACA515872}" Type="Ref">/fem-rt/RT-Variables.lvlib/EnvCovMotSta</Property>
 	<Property Name="varPersistentID:{C69EC1CA-E2AB-436D-82C1-E394592A4AB1}" Type="Ref">/fem-rt/Chassis/Mod7/SwOff</Property>
+	<Property Name="varPersistentID:{C7EF3D87-DBE2-4589-B11F-DF9E8693A0DB}" Type="Ref">/My Computer/Dependencies/RT-Variables.lvlib/EnvCovSet</Property>
 	<Property Name="varPersistentID:{CC2C01DB-F431-404C-B652-C0CF45937D1B}" Type="Ref">/fem-rt/Chassis/Mod7/SwRemote</Property>
 	<Property Name="varPersistentID:{D724251E-E157-4B61-896C-C20271FA08DC}" Type="Ref">/fem-rt/Chassis/Mod2/AI1</Property>
 	<Property Name="varPersistentID:{D7C983B5-3682-42DD-9B68-EC1E30F8323B}" Type="Ref">/fem-rt/Chassis/Mod6/DO3</Property>
@@ -39,16 +52,47 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Enviro.vi" Type="VI" URL="../../BEM/Enviro/Enviro.vi"/>
 		<Item Name="LocalHostServer.vi" Type="VI" URL="../LocalHostServer.vi"/>
 		<Item Name="NonRT-Variables.lvlib" Type="Library" URL="../controls/NonRT-Variables.lvlib"/>
+		<Item Name="test.vi" Type="VI" URL="../../BEM/Enviro/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="SocketServerStates.ctl" Type="VI" URL="../FTT/controls/SocketServerStates.ctl"/>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="DB_Readings.ctl" Type="VI" URL="../../BEM/Controls/DB_Readings.ctl"/>
+			<Item Name="DB_Readings_Columns.ctl" Type="VI" URL="../../BEM/Controls/DB_Readings_Columns.ctl"/>
+			<Item Name="DBConnect.vi" Type="VI" URL="../../BEM/Telem/DBConnect.vi"/>
+			<Item Name="DBGetModuleSensors.vi" Type="VI" URL="../../BEM/Telem/DBGetModuleSensors.vi"/>
+			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../../BEM/Telem/DBInsertReadingVal.vi"/>
+			<Item Name="EnvFloInit.vi" Type="VI" URL="../../BEM/Enviro/FloMeter/EnvFloInit.vi"/>
+			<Item Name="EnvFloOpen.vi" Type="VI" URL="../../BEM/Enviro/FloMeter/EnvFloOpen.vi"/>
+			<Item Name="EnvFloRead.vi" Type="VI" URL="../../BEM/Enviro/FloMeter/EnvFloRead.vi"/>
+			<Item Name="EnvMillikCheckChannels.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikCheckChannels.vi"/>
+			<Item Name="EnvMillikInit.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikInit.vi"/>
+			<Item Name="EnvMillikOpen.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikOpen.vi"/>
+			<Item Name="EnvMillikReadChannel.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikReadChannel.vi"/>
+			<Item Name="GetTimestamp.vi" Type="VI" URL="../../BEM/Support/GetTimestamp.vi"/>
+			<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
+			<Item Name="WaitForBytes.vi" Type="VI" URL="../../BEM/Support/WaitForBytes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="fem-rt" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">fem-rt</Property>
-		<Property Name="alias.value" Type="Str">fem-rt.central.yale.internal</Property>
+		<Property Name="alias.value" Type="Str">fem-rt.lowell.edu</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7743;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7743</Property>
 		<Property Name="DisableAutoDeployVariables" Type="Bool">false</Property>
@@ -1096,12 +1140,14 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
+		<Item Name="KillTheServer.vi" Type="VI" URL="../Support/KillTheServer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

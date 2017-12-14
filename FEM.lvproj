@@ -52,41 +52,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Enviro.vi" Type="VI" URL="../../BEM/Enviro/Enviro.vi"/>
 		<Item Name="LocalHostServer.vi" Type="VI" URL="../LocalHostServer.vi"/>
 		<Item Name="NonRT-Variables.lvlib" Type="Library" URL="../controls/NonRT-Variables.lvlib"/>
 		<Item Name="test.vi" Type="VI" URL="../../BEM/Enviro/test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
-				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
-				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
-				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
-				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="DB_Readings.ctl" Type="VI" URL="../../BEM/Controls/DB_Readings.ctl"/>
-			<Item Name="DB_Readings_Columns.ctl" Type="VI" URL="../../BEM/Controls/DB_Readings_Columns.ctl"/>
-			<Item Name="DBConnect.vi" Type="VI" URL="../../BEM/Telem/DBConnect.vi"/>
-			<Item Name="DBGetModuleSensors.vi" Type="VI" URL="../../BEM/Telem/DBGetModuleSensors.vi"/>
-			<Item Name="DBInsertReadingVal.vi" Type="VI" URL="../../BEM/Telem/DBInsertReadingVal.vi"/>
-			<Item Name="EnvFloInit.vi" Type="VI" URL="../../BEM/Enviro/FloMeter/EnvFloInit.vi"/>
-			<Item Name="EnvFloOpen.vi" Type="VI" URL="../../BEM/Enviro/FloMeter/EnvFloOpen.vi"/>
-			<Item Name="EnvFloRead.vi" Type="VI" URL="../../BEM/Enviro/FloMeter/EnvFloRead.vi"/>
-			<Item Name="EnvMillikCheckChannels.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikCheckChannels.vi"/>
-			<Item Name="EnvMillikInit.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikInit.vi"/>
-			<Item Name="EnvMillikOpen.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikOpen.vi"/>
-			<Item Name="EnvMillikReadChannel.vi" Type="VI" URL="../../BEM/Enviro/Temperature/EnvMillikReadChannel.vi"/>
-			<Item Name="GetTimestamp.vi" Type="VI" URL="../../BEM/Support/GetTimestamp.vi"/>
 			<Item Name="RT-Variables.lvlib" Type="Library" URL="../controls/RT-Variables.lvlib"/>
-			<Item Name="WaitForBytes.vi" Type="VI" URL="../../BEM/Support/WaitForBytes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1140,14 +1110,12 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
-		<Item Name="KillTheServer.vi" Type="VI" URL="../Support/KillTheServer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
